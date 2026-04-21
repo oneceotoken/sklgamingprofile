@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Skull Gaming</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2214%22%20fill%3D%22%237c3aed%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%20font-family%3D%22-apple-system%2CBlinkMacSystemFont%2CSegoe%20UI%2CRoboto%2Csans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22800%22%20fill%3D%22%23fff%22%20letter-spacing%3D%22-1%22%3ESG%3C%2Ftext%3E%3C%2Fsvg%3E">
+  <link rel="apple-touch-icon" href="data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2214%22%20fill%3D%22%237c3aed%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2254%25%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%20font-family%3D%22-apple-system%2CBlinkMacSystemFont%2CSegoe%20UI%2CRoboto%2Csans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22800%22%20fill%3D%22%23fff%22%20letter-spacing%3D%22-1%22%3ESG%3C%2Ftext%3E%3C%2Fsvg%3E">
+  <meta name="theme-color" content="#7c3aed">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Instrument+Serif:ital@0;1&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <div class="cursor" id="cursor"><div class="cursor-dot"></div><div class="cursor-ring"></div></div>
+  <div class="noise-bg"></div>
+
+  <header class="header" id="header">
+    <div class="header-inner">
+      <a href="../" class="logo logo--monogram" data-arbel-id="site-logo" data-arbel-edit="text"><span class="logo-mono" aria-label="Skull Gaming">SG</span></a>
+      <nav class="nav" id="nav" data-arbel-id="site-nav">
+        <a href="../#contact" class="nav-link" data-arbel-id="nav-contact" data-arbel-edit="text">Contact</a>
+        <a href="../about" class="nav-link" data-arbel-id="nav-page-about" data-arbel-edit="text">About</a>
+      </nav>
+      <div class="nav-extra" id="navExtra" data-arbel-id="nav-extra"><a href="#contact" class="btn btn-primary nav-extra-cta" data-arbel-id="nav-extra-cta" data-arbel-edit="text">QUEUE UP</a></div>
+      <button class="menu-btn" id="menuBtn" data-arbel-id="menu-btn" aria-label="Menu"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <section class="section" style="padding-top:12rem;min-height:70vh">
+    <span class="section-label mono">CONTACT</span>
+    <h2 class="section-heading" data-arbel-id="contact-heading" data-arbel-edit="text"><span class="line"><span class="line-inner">Get in Touch</span></span></h2>
+    <p style="max-width:540px;color:var(--fg2);line-height:1.8;margin-top:1.5rem;margin-bottom:3rem" data-arbel-id="contact-sub" data-arbel-edit="text">Have a project in mind? We'd love to hear from you.</p>
+    <form action="#" method="POST" style="max-width:540px;display:grid;gap:1.2rem" onsubmit="this.querySelector('[type=submit]').textContent='Sent!';return false">
+      <input type="text" name="name" autocomplete="name" placeholder="Your Name" required style="width:100%;padding:0.85rem 1rem;background:var(--surface);border:1px solid var(--border);border-radius:8px;color:var(--fg);font-family:inherit;font-size:0.85rem;outline:none;transition:border-color 0.2s;">
+      <input type="email" name="email" autocomplete="email" placeholder="Your Email" required style="width:100%;padding:0.85rem 1rem;background:var(--surface);border:1px solid var(--border);border-radius:8px;color:var(--fg);font-family:inherit;font-size:0.85rem;outline:none;transition:border-color 0.2s;">
+      <p style="font-size:0.7rem;color:var(--fg3);margin-top:-0.5rem">Or email: <a href="mailto:hello@skullgaming.co" style="color:var(--accent)">hello@skullgaming.co</a></p>
+      <textarea name="message" rows="5" placeholder="Your Message" required style="width:100%;padding:0.85rem 1rem;background:var(--surface);border:1px solid var(--border);border-radius:8px;color:var(--fg);font-family:inherit;font-size:0.85rem;outline:none;transition:border-color 0.2s;resize:vertical"></textarea>
+      <button type="submit" class="cta-btn" style="align-self:start;cursor:pointer" data-arbel-id="contact-cta" data-arbel-edit="text">Contact Us</button>
+    </form>
+  </section>
+
+  <footer class="footer footer-columns">
+    <div class="footer-inner">
+      <div class="footer-brand-col">
+        <span class="logo logo--monogram"><span class="logo-mono" aria-label="Skull Gaming">SG</span></span>
+        <p class="footer-tagline" data-arbel-id="footer-tagline" data-arbel-edit="text">Queue fast. Rank faster. Always-on servers worldwide.</p>
+        <p class="footer-copy mono">&copy; <script>document.write(new Date().getFullYear())</script> Skull Gaming</p>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-heading" data-arbel-id="footer-col1-heading" data-arbel-edit="text">PLAY</div>
+        <ul class="footer-col-list"><li><a href="#gameModes" data-arbel-id="footer-col1-1" data-arbel-edit="text">Modes</a></li><li><a href="#agentRoster" data-arbel-id="footer-col1-2" data-arbel-edit="text">Roster</a></li><li><a href="#" data-arbel-id="footer-col1-3" data-arbel-edit="text">Patch Notes</a></li></ul>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-heading" data-arbel-id="footer-col2-heading" data-arbel-edit="text">COMMUNITY</div>
+        <ul class="footer-col-list"><li><a href="#" data-arbel-id="footer-col2-1" data-arbel-edit="text">Discord</a></li><li><a href="#" data-arbel-id="footer-col2-2" data-arbel-edit="text">Twitch</a></li><li><a href="#" data-arbel-id="footer-col2-3" data-arbel-edit="text">Reddit</a></li></ul>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-heading" data-arbel-id="footer-col3-heading" data-arbel-edit="text">SUPPORT</div>
+        <ul class="footer-col-list"><li><a href="#" data-arbel-id="footer-col3-1" data-arbel-edit="text">Server Status</a></li><li><a href="#" data-arbel-id="footer-col3-2" data-arbel-edit="text">Report a Bug</a></li><li><a href="#" data-arbel-id="footer-col3-3" data-arbel-edit="text">Terms</a></li></ul>
+      </div>
+    </div>
+  </footer>
+
+  <div class="arbel-badge">built with <a href="https://arbel.live" target="_blank" rel="noopener">arbel.live</a></div>
+
+  <script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="../js/particles.js"></script>
+  <script src="../js/animations.js"></script>
+  <script src="../js/main.js"></script>
+<script>(function(){
+var AC="124,58,237",SC="11,218,81";
+var AN={fadeIn:{from:"opacity:0",to:"opacity:1"},fadeInUp:{from:"opacity:0;transform:translateY(30px)",to:"opacity:1;transform:translateY(0)"},fadeInDown:{from:"opacity:0;transform:translateY(-30px)",to:"opacity:1;transform:translateY(0)"},slideUp:{from:"opacity:0;transform:translateY(60px)",to:"opacity:1;transform:translateY(0)"},slideDown:{from:"opacity:0;transform:translateY(-60px)",to:"opacity:1;transform:translateY(0)"},slideLeft:{from:"opacity:0;transform:translateX(60px)",to:"opacity:1;transform:translateX(0)"},slideRight:{from:"opacity:0;transform:translateX(-60px)",to:"opacity:1;transform:translateX(0)"},scaleUp:{from:"opacity:0;transform:scale(0.7)",to:"opacity:1;transform:scale(1)"},scaleDown:{from:"opacity:0;transform:scale(1.3)",to:"opacity:1;transform:scale(1)"},bounceIn:{from:"opacity:0;transform:scale(0.3)",to:"opacity:1;transform:scale(1)"},elasticIn:{from:"opacity:0;transform:scale(0.5)",to:"opacity:1;transform:scale(1)"},rotateIn:{from:"opacity:0;transform:rotate(-15deg) scale(0.9)",to:"opacity:1;transform:rotate(0) scale(1)"},rotateInLeft:{from:"opacity:0;transform:rotate(-90deg)",to:"opacity:1;transform:rotate(0)"},flipIn:{from:"opacity:0;transform:perspective(400px) rotateX(90deg)",to:"opacity:1;transform:perspective(400px) rotateX(0)"},flipInY:{from:"opacity:0;transform:perspective(400px) rotateY(90deg)",to:"opacity:1;transform:perspective(400px) rotateY(0)"},blurIn:{from:"opacity:0;filter:blur(12px)",to:"opacity:1;filter:blur(0)"},glitchIn:{from:"opacity:0;transform:skewX(-20deg) translateX(-30px)",to:"opacity:1;transform:skewX(0) translateX(0)"},clipIn:{from:"clip-path:inset(0 100% 0 0);opacity:0",to:"clip-path:inset(0 0 0 0);opacity:1"},dropIn:{from:"opacity:0;transform:translateY(-100px)",to:"opacity:1;transform:translateY(0)"},unfold:{from:"opacity:0;transform:scaleY(0);transform-origin:top",to:"opacity:1;transform:scaleY(1)"}};
+var HV={lift:"transform:translateY(-6px);box-shadow:0 12px 40px rgba(0,0,0,.25)",scale:"transform:scale(1.06)",glow:"box-shadow:0 0 25px rgba(100,108,255,.5)",tilt:"transform:rotate(-2deg)",skew:"transform:skewX(-3deg)","border-glow":"box-shadow:0 0 0 2px #646cff,0 0 20px rgba(100,108,255,.3)",brightness:"filter:brightness(1.3)","color-shift":"filter:hue-rotate(30deg)"};
+var st=document.createElement("style");st.textContent="@keyframes arbel-pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.05)}}@keyframes arbel-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}@keyframes arbel-spin{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}@keyframes arbel-bounce{0%,100%{transform:translateY(0)}50%{transform:translateY(-15px)}}@keyframes arbel-shake{0%,100%{transform:translateX(0)}25%{transform:translateX(-5px)}75%{transform:translateX(5px)}}@keyframes arbel-swing{0%,100%{transform:rotate(0)}25%{transform:rotate(5deg)}75%{transform:rotate(-5deg)}}@keyframes arbel-breathe{0%,100%{opacity:1}50%{opacity:.6}}@keyframes arbel-glow-pulse{0%,100%{box-shadow:0 0 5px rgba(124,58,237,.3)}50%{box-shadow:0 0 25px rgba(124,58,237,.6)}}";document.head.appendChild(st);
+var CM={pulse:"arbel-pulse 2s ease-in-out infinite",float:"arbel-float 3s ease-in-out infinite",spin:"arbel-spin 4s linear infinite",bounce:"arbel-bounce 1.5s ease-in-out infinite",shake:"arbel-shake 0.5s ease-in-out infinite",swing:"arbel-swing 2s ease-in-out infinite",breathe:"arbel-breathe 3s ease-in-out infinite","glow-pulse":"arbel-glow-pulse 2s ease-in-out infinite"};
+var io=new IntersectionObserver(function(entries){entries.forEach(function(e){
+  if(!e.isIntersecting)return;
+  var el=e.target,a=el.getAttribute("data-arbel-anim"),p=AN[a];
+  if(!p)return;
+  el.style.transition="all .8s cubic-bezier(.16,1,.3,1)";
+  p.to.split(";").forEach(function(s){var kv=s.split(":");if(kv.length===2)el.style[kv[0].trim()]=kv[1].trim()});
+  io.unobserve(el);
+})},{threshold:0.15});
+document.querySelectorAll("[data-arbel-anim]").forEach(function(el){
+  var a=el.getAttribute("data-arbel-anim"),p=AN[a];
+  if(!p)return;
+  p.from.split(";").forEach(function(s){var kv=s.split(":");if(kv.length===2)el.style[kv[0].trim()]=kv[1].trim()});
+  io.observe(el);
+});
+document.querySelectorAll("[data-arbel-continuous]").forEach(function(el){
+  var c=el.getAttribute("data-arbel-continuous");
+  if(CM[c])el.style.animation=CM[c];
+});
+document.querySelectorAll("[data-arbel-hover]").forEach(function(el){
+  var h=el.getAttribute("data-arbel-hover"),css=HV[h];
+  if(!css)return;
+  el.style.transition="all .3s ease";
+  el.addEventListener("mouseenter",function(){el._ph=el.style.cssText;css.split(";").forEach(function(s){var kv=s.split(":");if(kv.length===2)el.style[kv[0].trim()]=kv[1].trim()})});
+  el.addEventListener("mouseleave",function(){if(el._ph!==undefined)el.style.cssText=el._ph});
+});
+})();</script>
+</body>
+</html>

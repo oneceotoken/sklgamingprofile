@@ -1,0 +1,15 @@
+/* Arbel design tokens — auto-generated
+ * Drop into any project: <link rel="stylesheet" href="tokens.css"> or @import.
+ */
+:root {
+  --arbel-accent: #7c3aed;
+  --arbel-fg: #101014;
+  --arbel-fg-muted: #55586a;
+  --arbel-surface: #ffffff;
+  --arbel-font-heading: "Plus Jakarta Sans", -apple-system, sans-serif;
+  --arbel-font-body: "Plus Jakarta Sans", -apple-system, sans-serif;
+  --arbel-base-size: 15px;
+  --arbel-scale: 1.2;
+  --arbel-space-unit: 6px;
+  --arbel-radius: 2px;
+}
